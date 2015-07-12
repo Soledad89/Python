@@ -18,6 +18,6 @@ command = clean_command + " && " + cp_command + " && " + zip_command
 # Run the backup
 print(command)
 if os.system(command) == 0:
-    print('Successful backup to')
+    print('Successful backup')
 else:
     print('Backup FAILED')
